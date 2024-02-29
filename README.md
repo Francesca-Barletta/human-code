@@ -8,15 +8,20 @@ forse è meglio optare per un buon libro: un classico ma so che con lei vado
 sul sicuro!
 
 - Accedere ad Amazon
-    -  SE PC spento
-        - accendere il Pc
-    - aprire il browser
-    - collegarsi al sito amazon.it
+    - SE scelgo il PC
+        -  SE PC spento
+            - accendere il Pc
+        - ALRIMENTI
+            - aprire il browser
+            - collegarsi al sito amazon.it
+    - ALTRIMENTI
+        - prendo il telefono
+        - apro l'app di amazon
 - scegliere il regalo
     - cercare lampada che le piace tanto
     - SE consegna Prime E rientra nel budget
         - aggiungi al carrello
-    - ALTRIMENTI
+    - ALRIMENTI
         - Cerca penna stilografica
         - SE consegna prime E rientra nel budget
             - aggiungi al carrello
@@ -26,14 +31,66 @@ sul sicuro!
                     - aggiungi al carrello
 - ordinare il regalo
     - vai al carrello
-    - procedi all'acquisto
+    - SE ho soldi sulla carta
+        - procedi all'acquisto
+    - ALTRIMENTI
+        - ricarica la carta
+        - torna al carrello
     - inserisci dati di domicilio
     - inserisci dati di pagamento
     - clicca su paga
-    - SE pagamento andato a buon fine
-        - attendi e-mail di conferma
-    - ALTRIMENTI
-        - riprova il pagamento
+        - SE pagamento andato a buon fine
+            - attendi e-mail di conferma
+        - ALTRIMENTI
+            - riprova il pagamento
 - Spegnere il Pc
 - aspetta comodamente sul divano
     - ricordati che la prossima volta ci devi pensare prima
+
+# black jack
+
+- inizio gioco
+    - SE il giocatore ha puntato
+        - dai le carte
+            - due carte scoperte a giocatore
+            - una coperta e una scoperta al banco
+- PER OGNI giocatore che guarda la mano
+    - controllo le carte
+        - SE una carta è una figura vale 10
+        - SE una carta è un numero da 2 a 10 vale quanto scritto sulla carta
+        - SE è un asso
+            - SE la somma delle carte che ho in mano è superiore a 10 l'asso vale 1
+            - ALTRIMENTI vale 11
+        - SE la somma delle carte è 21
+            - BLACKJACK 21 vittoria grande baldoria
+    - SE chiama
+        - il banco da una carta
+        - SE il punteggio delle carte è superiore a 21
+            - Ha sballato
+        - ALTRIMENTI
+            - torna a controllo le carte
+    - ALTRIMENTI
+        - passa la mano al giocatore successivo
+- il banco guarda la sua mano
+    - controllo le carte
+        - SE una carta è una figura vale 10
+        - SE una carta è un numero da 2 a 10 vale quanto scritto sulla carta
+        - SE è un asso
+            - SE la somma delle carte che ho in mano è superiore a 10 l'asso vale 1
+            - ALTRIMENTI vale 11
+            - SE la somma delle carte è 21
+                - BLACKJACK 21 vittoria grande baldoria
+    - FINCHE' il punteggio è inferiore a 17
+        - chiama una carta
+            - SE il punteggio delle carte è superiore a 21
+                - Ha sballato
+            - ALTRIMENTI
+                - torna a controllo le carte
+    - ALTRIMENTI
+        - sta
+- comparare il punteggio
+    - PER OGNI giocatore
+        - SE il punteggio del giocatore è superiore a quello del banco
+            - il giocatore vince la puntata
+        - ALTRIMENTI
+            - il banco vince
